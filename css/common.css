@@ -1,0 +1,64 @@
+html, body {
+    height: 100%;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    background: #343434;
+    font-size: 18px;
+    color: white;
+    font-family: Corbel, Candara, "Calibri Light", Calibri, Arial, helvetica, serif, sans-serif;
+    margin-left: 25%;
+    margin-right: 25%;
+}
+
+@media (max-width: 1200px) {
+    body {
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+}
+
+@media (max-width: 700px) {
+    body {
+        margin-left: 0;
+        margin-right: 0;
+    }
+}
+
+a:link {
+    color: #58b7ff;
+}
+
+a:visited {
+    color: #9245a3;
+}
+
+img {
+    max-width: 100%;
+    height: 200px;
+    width: 200px;
+}
+
+input, textarea {
+    width: 250px;
+}
+
+.content {
+    flex: 1 0 auto;
+}
+
+iframe {
+    width: 100%;
+    height: 800px;
+}
+
+footer iframe {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 5em;
+    border: 0;
+}
